@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.game.koushikm.othellomarine.Settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop= "150dp"
+        tools:layout_editor_absoluteY="122dp"
+        tools:layout_editor_absoluteX="83dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:layout_editor_absoluteX="53dp" />
+       <android.support.v7.widget.AppCompatSeekBar
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/seekBar1"
+           />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:onClick="return1"
+
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="14dp"
+
+        />
+</LinearLayout>
+
+
+<!--
+ android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"
+        android:text="New game"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="114dp"
+-->

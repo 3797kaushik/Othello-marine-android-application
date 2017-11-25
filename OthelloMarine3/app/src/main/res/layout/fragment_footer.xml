@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:background="#4283f4"
+    android:layout_height="wrap_content"
+
+    android:padding="3dp"
+    tools:context="com.game.koushikm.othellomarine.FooterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New game"
+    android:theme="@style/MyButton"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:id="@+id/newGameBut"
+    android:layout_marginRight="10dp"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/undoGame"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:text="Undo"
+    android:theme="@style/MyButton"
+    android:layout_marginRight="10dp"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/redoGame"
+    android:layout_height="wrap_content"
+    android:theme="@style/MyButton"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:text="Home"
+    android:layout_marginRight="10dp"
+    />
+</LinearLayout>

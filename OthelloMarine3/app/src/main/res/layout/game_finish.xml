@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#4283f4"
+    android:id="@+id/gamef"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Game over "
+        android:textStyle="italic"
+        android:textSize="55dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/mybutton"
+
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:background="#000000"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#00a2e8"
+            android:paddingLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:padding="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="44dp"
+                android:src="@drawable/black3"
+                android:id="@+id/black_image"
+                android:layout_marginRight="50dp"
+                android:padding="0dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="0dp"
+                android:id="@+id/balck_score"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="0"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="7dp"
+            android:padding="0dp"
+            android:background="#00a2e8"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/white_image"
+                android:layout_width="70dp"
+                android:layout_height="44dp"
+                android:padding="0dp"
+
+                android:layout_marginRight="30dp"
+                android:src="@drawable/brown3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="0dp"
+                android:id="@+id/white_score"
+                android:layout_height="wrap_content"  android:textSize="25dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="0"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+<!-- ***************************************************************  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="#FF9602"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="default"
+        android:textStyle="italic"
+        android:id="@+id/judge"
+        android:textSize="35dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_height="wrap_content" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:text="wins"
+    android:textStyle="italic"
+    android:textSize="35dp"
+    android:layout_marginLeft="30dp"
+
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

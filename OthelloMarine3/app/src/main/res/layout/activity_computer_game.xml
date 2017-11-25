@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:isScrollContainer="true"
+    android:background="#4283f4"
+    tools:context="com.game.koushikm.othellomarine.ComputerGame">
+
+
+    <GridView
+        android:id="@+id/gridView"
+        android:background="#000000"
+        android:verticalSpacing="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:clickable="true"
+        android:numColumns="8"
+        >
+
+    </GridView>
+
+
+    <fragment
+        android:layout_marginLeft="10dp"
+        android:padding="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.game.koushikm.othellomarine.FooterFragment"
+        android:id="@+id/frag2"
+        />
+    <fragment
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:paddingTop="3dp"
+
+        android:name="com.game.koushikm.othellomarine.ScoreFragment"
+        android:id="@+id/frag1"
+        />
+</LinearLayout>
